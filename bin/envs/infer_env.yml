@@ -1,0 +1,16 @@
+name: infer_env
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+
+dependencies:
+    - python=3.8
+    - pip
+    - pip:
+      - torch==1.13.1
+      - transformers==4.29.2
+      - biopython==1.79
+      - einops
+      
+    

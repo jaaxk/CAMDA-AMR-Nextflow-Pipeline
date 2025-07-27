@@ -1,9 +1,8 @@
 work/*
 .DS_Store
-resources/models/*
-resources/sig_seqs_5e-2/*
+bin/resources/models/*
+bin/resources/sig_seqs_5e-2/*
 data/*
-bin/
 results/*
 .nextflow.log*
 
