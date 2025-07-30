@@ -1,7 +1,7 @@
 process QC {
+    label "process_cpu_high"
     conda "bioconda::fastp"
-    label "process_medium"
-
+    
     publishDir "${params.outdir}/fastp", mode: 'copy'
     input: 
     tuple val(accession), val(genus_species), val(antibiotic), val(metadata), path(fastq)

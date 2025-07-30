@@ -1,0 +1,10 @@
+name: flank_env
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+dependencies:
+    - python=3.8
+    - pip
+    - pip:
+      - biopython==1.79

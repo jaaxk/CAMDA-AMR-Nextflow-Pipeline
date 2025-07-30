@@ -1,4 +1,5 @@
 process BLAST {
+    label "process_cpu_high"
     conda "bioconda::blast"
     
     publishDir "${params.outdir}/blast", mode: 'copy'

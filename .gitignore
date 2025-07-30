@@ -1,3 +1,7 @@
+.nextflow/cache
+.nextflow/plr
+res.txt
+.nextflow/history
 work/*
 .DS_Store
 bin/resources/models/*

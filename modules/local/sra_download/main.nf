@@ -1,6 +1,6 @@
 process SRA_DOWNLOAD {
+    label "process_cpu_low"
     conda "bioconda::sra-tools"
-    label 'process_medium'
     
     publishDir "${params.outdir}/fastq", mode: 'copy'
     

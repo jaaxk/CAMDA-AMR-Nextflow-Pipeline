@@ -1,5 +1,5 @@
 process FLANK {
-
+    conda "bin/envs/flank_env.yml"
     publishDir "${params.outdir}/flank", mode: 'copy'
     
     input:

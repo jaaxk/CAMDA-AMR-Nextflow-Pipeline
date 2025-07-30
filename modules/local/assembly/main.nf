@@ -1,4 +1,5 @@
 process ASSEMBLY {
+    label "process_cpu_high"
     conda "bioconda::spades"
     
     publishDir "${params.outdir}/assembly", mode: 'copy'

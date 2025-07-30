@@ -8,7 +8,7 @@ params.outdir = "results"
 
 // Include modules
 include { SRA_DOWNLOAD } from './modules/local/sra_download/main'
-include { QC } from './modules/local/QC/main'
+include { QC } from './modules/local/qc/main'
 include { ASSEMBLY } from './modules/local/assembly/main'
 include { BLAST } from './modules/local/blast/main'
 include { FLANK } from './modules/local/flank/main'

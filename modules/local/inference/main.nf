@@ -1,4 +1,5 @@
 process INFERENCE {
+    label "process_a100"
     conda 'bin/envs/infer_env.yml'
     publishDir "${params.outdir}/inference", mode: 'copy'
     
